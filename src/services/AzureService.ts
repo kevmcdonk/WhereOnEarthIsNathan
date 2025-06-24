@@ -309,7 +309,7 @@ class AzureService {
 const defaultConfig: AzureServiceConfig = {
   clientId: import.meta.env.PUBLIC_AZURE_CLIENT_ID || '',
   tenantId: import.meta.env.PUBLIC_AZURE_TENANT_ID || '',
-  redirectUri: import.meta.env.PUBLIC_REDIRECT_URI || window.location.origin,
+  redirectUri: import.meta.env.PUBLIC_REDIRECT_URI || '',
   apiEndpoint: import.meta.env.PUBLIC_API_ENDPOINT || '',
   scopes: (import.meta.env.PUBLIC_API_SCOPES || '').split(','),
   orchestratorAgentId: import.meta.env.PUBLIC_ORCHESTRATOR_AGENT_ID || '',
