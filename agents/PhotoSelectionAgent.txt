@@ -1,0 +1,1 @@
+Select a random location around the world, get the longitude and latitude and retrieve the photo for that location, returning all the details.
