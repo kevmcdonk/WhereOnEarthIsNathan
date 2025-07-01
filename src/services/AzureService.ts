@@ -307,7 +307,7 @@ class AzureService {
 
 // Default config - override these values in your application
 const defaultConfig: AzureServiceConfig = {
-  clientId: import.meta.env.PUBLIC_AZURE_CLIENT_ID || '',
+  clientId: import.meta.env.PUBLIC_AZURE_CLIENT_ID || 'WHYISTHIS_EMPTY',
   tenantId: import.meta.env.PUBLIC_AZURE_TENANT_ID || '',
   redirectUri: import.meta.env.PUBLIC_REDIRECT_URI || '',
   apiEndpoint: import.meta.env.PUBLIC_API_ENDPOINT || '',
