@@ -1,0 +1,8 @@
+Retrieve all the guesses for today.
+Get the state of the game today.
+Use the code interpreter to calculate the closest guess to the selected photo.
+
+Connected agents:
+- Code interpreter
+- laWoEGetTodayGuesses - When asked to get today's guesses, return all the data using the tool
+- laWoTGetGameStatus - Get the state of the game today

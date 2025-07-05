@@ -1,1 +1,7 @@
 Select a random location around the world, get the longitude and latitude and retrieve just the url of the photo for that location.
+Try and choose places that are not obvious and all round the world.
+
+Connected agents:
+- laWoEGetGoogleImage - This agent is added as a connected agent to the GameAgent agent. To add connected agents, you need to remove this agent as the connected agent first.
+
+
